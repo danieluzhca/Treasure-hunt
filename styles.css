@@ -1,0 +1,30 @@
+button{
+   width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background:#8C41D6;
+    color: white;
+    border-radius: 100px;
+    border: solid black 3px; 
+    }
+#word6,#word5,#word4,#word3,#word2,#Reward,#formula,#Chum,#Krusty-Krab,#chest{
+    display:none;
+    }
+img{
+    display:flex;
+    justify-content:center;
+    }
+#Krusty-Krab{
+ width:300px;
+ height:200px;
+}
+#Chum{
+     margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    width:50%;
+    height:400px;
+    }
+p{
+    font-size:30px;
+    }
