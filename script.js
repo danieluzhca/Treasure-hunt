@@ -1,0 +1,38 @@
+$("#quest").hover(function(){
+    $("#Chum").show();
+    $("#quest").hide();
+    $("#Patty").hide();
+    $("#word").fadeOut();
+    $("#title").hide();
+    $("#word2").show();
+});
+
+$("#Chum").click(function(){
+    $("#Chum").hide();
+    $("#Krusty-Krab").fadeIn();
+    $("#word2").hide();
+     $("#word3").show();
+});
+
+$("#Krusty-Krab").dblclick(function(){
+    $("#Krusty-Krab").hide();
+    $("#chest").show();
+     $("#word4").show();
+      $("#word3").hide();
+});
+$("#chest").mouseup(function(){
+    $("#formula").show();
+    $("#chest").fadeOut(); 
+      $("#word4").hide();
+         $("#word5").show();
+});
+$("#formula").mousedown(function(){
+    $("#formula").slideToggle();
+    $("#Reward").fadeToggle();
+     $("#word5").show();
+      $("#word4").hide();
+});
+$("#Reward").hover(function(){
+     $("#word5").hide();
+     $("#word6").show();
+}); 
